@@ -31,8 +31,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -52,13 +51,12 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"counter\",\"type\":\"uint256\"}],\"name\":\"SetCounter\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"counter\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getCounter\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"setCounter\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/rayholu/cica/cica-contract/contracts/Hello.sol\":\"Hello\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/rayholu/cica/cica-contract/contracts/Hello.sol\":{\"keccak256\":\"0xa644e04084f737d7c869c9b0a161ba780cb29afcb3ff0a7ca676edbacc6fd3e9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4c6905b2976af3a86fc3cf34ed1cf065e2c4623416891fd7dc0108191bcb0811\",\"dweb:/ipfs/QmRNSj8WHv8q2ZKd6BTpsgkCV5CVDVJh7SV5F9PmLYphuT\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506101f5806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806361bc221a146100465780638ada066e146100645780638d3945e414610082575b600080fd5b61004e61008c565b60405161005b9190610115565b60405180910390f35b61006c610092565b6040516100799190610115565b60405180910390f35b61008a61009b565b005b60005481565b60008054905090565b60016000808282546100ad9190610130565b925050819055503373ffffffffffffffffffffffffffffffffffffffff167f50ef2ca26f6df90c78b73ebc44c5627b62f425b94f8c6f6c53fca4edd4c970076000546040516100fc9190610115565b60405180910390a2565b61010f81610186565b82525050565b600060208201905061012a6000830184610106565b92915050565b600061013b82610186565b915061014683610186565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111561017b5761017a610190565b5b828201905092915050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fdfea26469706673582212200250d820e65984ac61b3f45a7dfe222affe96b5516e571f524a4b9eacad7d06764736f6c63430008000033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806361bc221a146100465780638ada066e146100645780638d3945e414610082575b600080fd5b61004e61008c565b60405161005b9190610115565b60405180910390f35b61006c610092565b6040516100799190610115565b60405180910390f35b61008a61009b565b005b60005481565b60008054905090565b60016000808282546100ad9190610130565b925050819055503373ffffffffffffffffffffffffffffffffffffffff167f50ef2ca26f6df90c78b73ebc44c5627b62f425b94f8c6f6c53fca4edd4c970076000546040516100fc9190610115565b60405180910390a2565b61010f81610186565b82525050565b600060208201905061012a6000830184610106565b92915050565b600061013b82610186565b915061014683610186565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111561017b5761017a610190565b5b828201905092915050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fdfea26469706673582212200250d820e65984ac61b3f45a7dfe222affe96b5516e571f524a4b9eacad7d06764736f6c63430008000033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"counter\",\"type\":\"uint256\"}],\"name\":\"SetCounter\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"counter\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getCounter\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"setCounter\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/rayholu/cica/cica-contract/contracts/Hello.sol\":\"Hello\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/rayholu/cica/cica-contract/contracts/Hello.sol\":{\"keccak256\":\"0xfd511b5ec291b4c6623eeac58e5999001f431baf47cf46de22776783bfb7b08e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9d6372bf2b0eaca395fd5a7d954c689efd98a1783ba317792ad93ca265cd0351\",\"dweb:/ipfs/QmddgouSGVxBJxiJRLZgwePz2MrZCWzVP8sz35Zn8nN6xS\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506101f5806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806361bc221a146100465780638ada066e146100645780638d3945e414610082575b600080fd5b61004e61008c565b60405161005b9190610115565b60405180910390f35b61006c610092565b6040516100799190610115565b60405180910390f35b61008a61009b565b005b60005481565b60008054905090565b60026000808282546100ad9190610130565b925050819055503373ffffffffffffffffffffffffffffffffffffffff167f50ef2ca26f6df90c78b73ebc44c5627b62f425b94f8c6f6c53fca4edd4c970076000546040516100fc9190610115565b60405180910390a2565b61010f81610186565b82525050565b600060208201905061012a6000830184610106565b92915050565b600061013b82610186565b915061014683610186565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111561017b5761017a610190565b5b828201905092915050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fdfea2646970667358221220db2324a60d515b08239eaa38581450f7b7201667f10942dc284006efb5bd239a64736f6c63430008000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806361bc221a146100465780638ada066e146100645780638d3945e414610082575b600080fd5b61004e61008c565b60405161005b9190610115565b60405180910390f35b61006c610092565b6040516100799190610115565b60405180910390f35b61008a61009b565b005b60005481565b60008054905090565b60026000808282546100ad9190610130565b925050819055503373ffffffffffffffffffffffffffffffffffffffff167f50ef2ca26f6df90c78b73ebc44c5627b62f425b94f8c6f6c53fca4edd4c970076000546040516100fc9190610115565b60405180910390a2565b61010f81610186565b82525050565b600060208201905061012a6000830184610106565b92915050565b600061013b82610186565b915061014683610186565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111561017b5761017a610190565b5b828201905092915050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fdfea2646970667358221220db2324a60d515b08239eaa38581450f7b7201667f10942dc284006efb5bd239a64736f6c63430008000033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -571,7 +569,7 @@
   ],
   "sourceMap": "57:315:0:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "57:315:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;144:22;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;285:85;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;173:106;;;:::i;:::-;;144:22;;;;:::o;285:85::-;330:7;356;;349:14;;285:85;:::o;173:106::-;225:1;214:7;;:12;;;;;;;:::i;:::-;;;;;;;;252:10;241:31;;;264:7;;241:31;;;;;;:::i;:::-;;;;;;;;173:106::o;7:118:1:-;94:24;112:5;94:24;:::i;:::-;89:3;82:37;72:53;;:::o;131:222::-;;262:2;251:9;247:18;239:26;;275:71;343:1;332:9;328:17;319:6;275:71;:::i;:::-;229:124;;;;:::o;359:305::-;;418:20;436:1;418:20;:::i;:::-;413:25;;452:20;470:1;452:20;:::i;:::-;447:25;;606:1;538:66;534:74;531:1;528:81;525:2;;;612:18;;:::i;:::-;525:2;656:1;653;649:9;642:16;;403:261;;;;:::o;670:77::-;;736:5;725:16;;715:32;;;:::o;753:180::-;801:77;798:1;791:88;898:4;895:1;888:15;922:4;919:1;912:15",
-  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract Hello {\n\n    event SetCounter(address indexed account, uint256 counter);\n\n    uint256 public counter;\n\n    function setCounter() external {\n        counter += 1;\n        emit SetCounter(msg.sender, counter);\n    }\n\n    function getCounter() external view returns (uint256) {\n        return counter;\n    }\n} ",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract Hello {\n\n    event SetCounter(address indexed account, uint256 counter);\n\n    uint256 public counter;\n\n    function setCounter() external {\n        counter += 2;\n        emit SetCounter(msg.sender, counter);\n    }\n\n    function getCounter() external view returns (uint256) {\n        return counter;\n    }\n} ",
   "sourcePath": "/Users/rayholu/cica/cica-contract/contracts/Hello.sol",
   "ast": {
     "absolutePath": "/Users/rayholu/cica/cica-contract/contracts/Hello.sol",
@@ -732,7 +730,7 @@
                     "nodeType": "Assignment",
                     "operator": "+=",
                     "rightHandSide": {
-                      "hexValue": "31",
+                      "hexValue": "32",
                       "id": 13,
                       "isConstant": false,
                       "isLValue": false,
@@ -742,10 +740,10 @@
                       "nodeType": "Literal",
                       "src": "225:1:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_rational_1_by_1",
-                        "typeString": "int_const 1"
+                        "typeIdentifier": "t_rational_2_by_1",
+                        "typeString": "int_const 2"
                       },
-                      "value": "1"
+                      "value": "2"
                     },
                     "src": "214:12:0",
                     "typeDescriptions": {
@@ -1111,7 +1109,7 @@
                     "nodeType": "Assignment",
                     "operator": "+=",
                     "rightHandSide": {
-                      "hexValue": "31",
+                      "hexValue": "32",
                       "id": 13,
                       "isConstant": false,
                       "isLValue": false,
@@ -1121,10 +1119,10 @@
                       "nodeType": "Literal",
                       "src": "225:1:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_rational_1_by_1",
-                        "typeString": "int_const 1"
+                        "typeIdentifier": "t_rational_2_by_1",
+                        "typeString": "int_const 2"
                       },
-                      "value": "1"
+                      "value": "2"
                     },
                     "src": "214:12:0",
                     "typeDescriptions": {
@@ -1364,8 +1362,7 @@
     }
   },
   "schemaVersion": "3.3.3",
-  "updatedAt": "2022-03-03T08:59:03.436Z",
-  "networkType": "ethereum",
+  "updatedAt": "2022-03-05T13:03:25.139Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

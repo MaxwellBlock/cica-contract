@@ -8,7 +8,7 @@ contract Hello {
     uint256 public counter;
 
     function setCounter() external {
-        counter += 1;
+        counter += 2;
         emit SetCounter(msg.sender, counter);
     }
 
