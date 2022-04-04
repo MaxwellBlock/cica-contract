@@ -22,7 +22,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 // const infuraKey = "fj4jll3k.....";
 //
 const fs = require('fs');
-secrets = JSON.parse(fs.readFileSync('data.json','utf8'));
+secrets = JSON.parse(fs.readFileSync('secret.json','utf8'));
 
 module.exports = {
   /**
